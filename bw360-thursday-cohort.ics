@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BODY WISDOM 360//Mental Fitness Gym Thursday Cohort//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BW360 Mental Fitness Gym — Thursday Cohort
+X-WR-TIMEZONE:Asia/Kuala_Lumpur
+X-WR-CALDESC:Weekly Thursday sessions for the BODY WISDOM 360 Mental Fitness Gym — UK/Central Europe/Night Owls in Australia cohort. All times anchored to Malaysia Time (MYT, UTC+8). Your local time will auto-adjust for daylight saving.
+BEGIN:VTIMEZONE
+TZID:Asia/Kuala_Lumpur
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:MYT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bw360-thursday-cohort-session-001@bodywisdom360.com
+DTSTAMP:20261023T030000Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261105T180000
+DTEND;TZID=Asia/Kuala_Lumpur:20261105T193000
+SUMMARY:BW360 Session 1 — Thursday Cohort (90 min kickoff)
+DESCRIPTION:Welcome session (90 min) for the BW360 Mental Fitness Gym — Thursday Cohort.\n\nJoin Zoom: https://us02web.zoom.us/j/82387292132\n\nTime reference:\n6:00 PM Malaysia / Singapore / Perth\n10:00 AM UK\n11:00 AM Central Europe\n\nAll times anchored to Malaysia Time (MYT). Your local time may shift by one hour when your country's daylight saving changes.
+LOCATION:https://us02web.zoom.us/j/82387292132
+URL:https://join.bodywisdom360.com/school/course/mental-fitness-gym-thursday-cohort
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BW360 Thursday Session 1 (90 min kickoff) starts in 1 hour
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BW360 Thursday Session 1 (90 min kickoff) starts in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bw360-thursday-cohort-sessions-002-025@bodywisdom360.com
+DTSTAMP:20261023T030000Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261112T180000
+DTEND;TZID=Asia/Kuala_Lumpur:20261112T183000
+RRULE:FREQ=WEEKLY;BYDAY=TH;COUNT=24
+SUMMARY:BW360 Weekly Session — Thursday Cohort
+DESCRIPTION:Weekly 30-min live Thursday session.\n\nJoin Zoom: https://us02web.zoom.us/j/82028144646\n\nTime reference:\n6:00 PM Malaysia / Singapore / Perth\n10:00 AM UK\n11:00 AM Central Europe\n\nAll times anchored to Malaysia Time (MYT). Your local time may shift by one hour when your country's daylight saving changes.
+LOCATION:https://us02web.zoom.us/j/82028144646
+URL:https://join.bodywisdom360.com/school/course/mental-fitness-gym-thursday-cohort
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BW360 Thursday Session starts in 1 hour
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BW360 Thursday Session starts in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
